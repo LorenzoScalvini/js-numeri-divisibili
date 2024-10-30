@@ -1,5 +1,5 @@
 function filtraDivisibili(numero, array) {
-    return array.filter(x => x % numero === 0);
+    return array.filter((x) => x % numero === 0);
 }
 
 const numeroIntero = 3;
